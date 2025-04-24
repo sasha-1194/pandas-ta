@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from numpy import NaN as npNaN
+import numpy as np
+npNaN = np.nan # Fix for newer 
 from pandas import DataFrame
 from pandas_ta.momentum import mom
 from pandas_ta.overlap import ema, sma
